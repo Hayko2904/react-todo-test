@@ -28,7 +28,7 @@ const TodoAdd = () => {
                 <input className="input" onChange={e => setItem({...item, name: e.target.value})} type="text"
                        value={item.name}/>
                 <MyButton
-                    hundleClick={() => add}
+                    hundleClick={add}
                     name="add"
                 />
             </div>
